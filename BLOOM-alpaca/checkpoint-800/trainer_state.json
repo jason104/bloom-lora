@@ -1,0 +1,54 @@
+{
+  "best_metric": 1.4954833984375,
+  "best_model_checkpoint": "BLOOM-alpaca/checkpoint-800",
+  "epoch": 2.050296331891719,
+  "global_step": 800,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.51,
+      "eval_loss": 1.5526630878448486,
+      "eval_runtime": 15.9464,
+      "eval_samples_per_second": 125.42,
+      "eval_steps_per_second": 15.678,
+      "step": 200
+    },
+    {
+      "epoch": 1.03,
+      "eval_loss": 1.5207650661468506,
+      "eval_runtime": 16.1064,
+      "eval_samples_per_second": 124.174,
+      "eval_steps_per_second": 15.522,
+      "step": 400
+    },
+    {
+      "epoch": 1.28,
+      "learning_rate": 0.0001794642857142857,
+      "loss": 1.6674,
+      "step": 500
+    },
+    {
+      "epoch": 1.54,
+      "eval_loss": 1.5052953958511353,
+      "eval_runtime": 15.7581,
+      "eval_samples_per_second": 126.919,
+      "eval_steps_per_second": 15.865,
+      "step": 600
+    },
+    {
+      "epoch": 2.05,
+      "eval_loss": 1.4954833984375,
+      "eval_runtime": 15.7851,
+      "eval_samples_per_second": 126.702,
+      "eval_steps_per_second": 15.838,
+      "step": 800
+    }
+  ],
+  "max_steps": 1170,
+  "num_train_epochs": 3,
+  "total_flos": 4.767163049469542e+16,
+  "trial_name": null,
+  "trial_params": null
+}
